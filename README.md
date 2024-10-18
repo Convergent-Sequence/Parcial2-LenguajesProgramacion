@@ -140,3 +140,9 @@ Por ejemplo, la entrada
 function f(t) = t^2 * exp(-3 * t) * sin(4 * t);
 Laplace f(t);
 ```
+
+produce:
+
+```bash
+La transformada de Laplace de f(t) es: (8*(s + 3) - 160)/((s + 3)**2 + 16)**3
+```
